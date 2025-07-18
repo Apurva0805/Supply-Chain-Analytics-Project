@@ -34,11 +34,6 @@ A sample dataset with:
    - Total orders and delayed orders  
    - Visual summaries
 
-3. **Power BI Dashboard**  
-   - Card visuals: Total Orders, Delayed Orders  
-   - Bar chart: Avg delivery time by Region  
-   - Pie chart: Delayed vs On-Time  
-   - Slicer: Region, Date
 
 ## 📈 Results
 

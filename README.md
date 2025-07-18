@@ -1,11 +1,63 @@
-# Supply Chain Analytics Project
+# 📦 Supply Chain Analytics – Python & Power BI
 
-This project analyzes supply chain data to uncover trends, delays, and optimization opportunities using Python.
+This project analyzes order delivery data to identify delays, cost trends, and regional performance in a supply chain process.
 
-## Folders
-- `data/`: Raw dataset
-- `notebooks/`: Jupyter notebooks with EDA and insights
+## 🔍 Objective
 
-## Tools Used
-- Python (Pandas, Matplotlib, Seaborn)
+To uncover insights on delivery performance and build an interactive dashboard that supports business decisions using real-world supply chain data.
+
+## 📁 Dataset
+
+A sample dataset with:
+- Order ID, Product ID, Product Name
+- Region, Order Date
+- Expected vs Actual Delivery Time
+- Delivery Cost
+
+## 🔧 Tools & Technologies
+
+- Python (Pandas, NumPy)
+- Excel (for initial exploration)
+- Power BI (dashboard)
+- GitHub (version control)
 - Jupyter Notebook
+
+## 📊 Key Steps
+
+1. **Data Cleaning (Pandas)**  
+   - Removed nulls  
+   - Created a new column `Delayed` based on delivery time  
+   - Calculated delay % by Region
+
+2. **Exploratory Data Analysis (EDA)**  
+   - Average delivery time per region  
+   - Total orders and delayed orders  
+   - Visual summaries
+
+3. **Power BI Dashboard**  
+   - Card visuals: Total Orders, Delayed Orders  
+   - Bar chart: Avg delivery time by Region  
+   - Pie chart: Delayed vs On-Time  
+   - Slicer: Region, Date
+
+## 📈 Results
+
+- Found that ~33% of orders in South region were delayed  
+- Delivery time in North was fastest on average  
+- Monitor and optimize delay-prone regions
+
+## 🔗 Output Files
+
+- `notebooks/EDA_Supply_Chain.ipynb` – Python exploration  
+- `data/supply_chain_data.csv` – Original dataset  
+- `cleaned/cleaned_supply_chain.csv` – Cleaned data  
+- `dashboard/PowerBI_Report.pbix` – Final dashboard
+
+## 🧠 Learnings
+
+- Practiced data cleaning and grouping in Pandas  
+- Built my first Power BI dashboard using real-world metrics  
+- Improved storytelling with data
+
+---
+

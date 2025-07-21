@@ -53,6 +53,6 @@ Supply-Chain-Analytics/
 ## 📌 Author
 
 **Apurva Dongale**  
-[LinkedIn Profile](https://www.linkedin.com/in/your-link)  
-[GitHub](https://github.com/your-profile)
+[LinkedIn Profile](https://www.linkedin.com/in/apurva-dongale-11a1302a3/?originalSubdomain=in)
+[GitHub]https://github.com/Apurva0805
 
